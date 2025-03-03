@@ -1,0 +1,38 @@
+{
+  "name": "ip-address-fetch",
+  "version": "2.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "jest",
+    "start": "webpack serve --mode development",
+    "dev": "webpack --mode development"
+  },
+  "keywords": [
+    "ip address",
+    "ip address fetch",
+    "fetch ip",
+    "react ip",
+    "npm package"
+  ],
+  "author": "Sejin Ahmed (MERN Stack)",
+  "license": "ISC",
+  "description": "A simple React package to fetch the user's IP address",
+  "devDependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "babel-loader": "^10.0.0",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-node-externals": "^3.0.0",
+    "jest": "^27.0.0",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/jest-dom": "^5.0.0",
+    "webpack-dev-server": "^4.0.0"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
